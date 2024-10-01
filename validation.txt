@@ -1,0 +1,25 @@
+#5 - 0:00:20.414 (small diff)
+#415 - 0:00:20.405 (.24 diff)
+#1395 - 0:00:06.070
+
+
+#1395 - 42.325 - 36.255 = 6.07 (check packets in between start & finish)
+2021-02-09 13:13:36.255 (start)
+2021-02-09 13:13:42.325 (finish)
+
+--- (why the discrepancy?)
+
+#415 - 77.096 - 56.931 = 20.165 
+13:11:56.931 (start)
+13:12:17.096 (finish)
+
+#5 - = ...
+13:10:56.453
+13:11:06.471
+
+Template
+
+['Date Time', '', 'Interface', '#', 'etc', 'Type', 'Sig', 'Packets', 'Parameters']
+[0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+['2021-02-09 13:13:55.254', '', 'CAN-FD', '1498', 'Rx', '99999999  ', '8', '06 50 03 00 64 01 F4 55              ', 'Instrumentation | Response | Instrumentation response_14DA45F1\n']
